@@ -66,7 +66,7 @@ void Recorder::start(const std::string& path) {
             stream << m_extra_args << " ";
         else
             stream << "-pix_fmt yuv420p ";
-        stream << "-vf \"vflip\" -an \"" << path << "\" "; // i hope just putting it in "" escapes it
+        stream << "-vf \"vflip\,\colorspace=all=bt709:iall=bt470bg:fast=1\" -an \"" << path << "\" "; // i hope just putting it in "" escapes it
         Console::WriteLine("executing: " + stream.str());
         auto process = subprocess::Popen(stream.str());
         while (m_recording || m_frame_has_data) {
