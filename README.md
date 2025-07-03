@@ -6,7 +6,6 @@ The following version of DashReplay are currently lost and are supposily exist i
 **v4.1.0**   
 **v4.1.1**   
 If anyone has these versions, open an issue containing the DLL and/or the source code   
-Also see if TobyAdd can unprivate the repo if possible   
 
 ![GeometryDash_QN2tesaWDW](https://user-images.githubusercontent.com/66429886/221263704-c4866078-c7fd-4d6a-94ae-f4d6ae0c74c2.png)
 
